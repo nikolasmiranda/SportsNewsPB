@@ -1,0 +1,30 @@
+/*Geral*/
+* {
+    font-family: "Roboto";
+}
+
+#basquete-ancora{
+    color: red;
+    text-decoration: none;
+}
+#futsal-ancora{
+    color: red;
+    text-decoration: none;
+}
+#skate-ancora{
+    color: red;
+    text-decoration: none;
+}
+#surf-ancora{
+        color: red;
+        text-decoration: none;
+}
+#futebolinternacional-ancora{
+    color: red;
+    text-decoration: none;
+}
+/*Noticias*/
+#imagem-reacao {
+    width: 25%;
+    height: 25%;
+}
