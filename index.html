@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SportsNewsPB</title>
+    <link rel="icon" type="image/x-icon" href="./src/img/Sportsnewspb-logo.png">
 </head>
 <body>
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -31,7 +32,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
           <img src="./src/img/Sportsnewspb-logo.png" alt="Logo" width="100" height="100">
           SportsNewsPB
           </a>
@@ -42,37 +43,31 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Início</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Início</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Notícias
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Futebol paraibano</a></li>
-                  <li><a class="dropdown-item" href="#">Futebol brasileiro</a></li>
+                  <li><a class="dropdown-item" href="noticias_futebol_nacional.html">Futebol Brasileiro</a></li>
+                  <li><a class="dropdown-item" href="noticias_futebol_internacional.html">Futebol Internacional</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Todas as Notícias</a></li>
+                  <li><a class="dropdown-item" href="todas_noticias.html">Todas as Notícias</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre Nós</a>
+                <a class="nav-link" href="sobre_nos.html">Sobre Nós</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link" href="newsletter.html">Newsletter</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-secondary" type="submit">
-                <i class="fa fa-search"></i>
-              </button>
-            </form>
           </div>
         </div>
       </nav>
     </header>
-    <br>
+<div id="margem_inicio">
 <div class="row">
   <div class="col-lg-8">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -114,62 +109,25 @@
       </button>
     </div>
   </div>
-  <div class="col-lg-4">
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Outros Esportes
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <a id="basquete-ancora" href="www.ge.com">-Basquete</a>
-            <br>
-            <a id="futsal-ancora" href="www.ge.com">-Futsal</a>
-            <br>
-            <a id="skate-ancora" href="www.ge.com">-Skate</a>
-            <br>
-            <a id="surf-ancora" href="www.ge.com">-Surf</a>
-            <br>
-          </div>
-        </div>
+  <div class="col-lg-4" id="alex">
+    <div class="card" style="width: 100%;">
+      <img src="./src/img/1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Alexsander tem lesão grave detectada na coxa; veja por quanto tempo deve desfalcar o Fluminense</h5>
+        <p class="card-text">Com o joelho esquerdo em recuperação, volante sofre lesão de grau três na coxa direita.</p>
+        <a href="alex_sander.html" class="btn btn-danger">Ver</a>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Accordion Item #2
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Accordion Item #3
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
+      <br>
     </div>
-  </div>
 </div>
 <div class="row mt-4">
     <div class="col-lg-4">
       <div class="card" style="width: 100%;">
-        <img src="./src/img/Flamengo X Athletico Paranaense.jpg" class="card-img-top" alt="...">
+        <img src="./src/img/Flamengo X Athletico Paranaense.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Athletico x Flamengo pela quinta vez seguida na Copa do Brasil rende reações nas redes; veja</h5>
           <p class="card-text">Times se encontram desde 2019 na competição e agora vão decidir vaga nas semifinais.</p>
-          <a href="#" class="btn btn-danger">Ver</a>
+          <a href="athletico_flamengo.html" class="btn btn-danger">Ver</a>
         </div>
       </div>
     </div>
@@ -179,7 +137,7 @@
         <div class="card-body">
           <h5 class="card-title">CBF vê 'disputa' de lobby de ex-jogadores por Carlo Ancelotti e Jorge Jesus</h5>
           <p class="card-text">Ednaldo Rodrigues confirma que terá reuniões na Europa durante a data Fifa e só irá partir para plano B após esgotar as tentativas de contratar treinador italiano do Real Madrid.</p>
-          <a href="#" class="btn btn-danger">Ver</a>
+          <a href="jorge_ancelotti.html" class="btn btn-danger">Ver</a>
         </div>
       </div>
     </div>
@@ -189,13 +147,12 @@
         <div class="card-body">
           <h5 class="card-title">John Textor teve cargo indevido na SAF do Botafogo por dois meses; entenda</h5>
           <p class="card-text">Norte-americano acumulou funções de dono e CEO do Alvinegro no começo do ano.</p>
-          <a href="#" class="btn btn-danger">Ver</a>
+          <a href="john_textor.html" class="btn btn-danger">Ver</a>
         </div>
       </div>
     </div>
+    </div>
 </div>
-
-
       <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <div class="col-md-4 d-flex align-items-center">
